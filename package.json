@@ -1,0 +1,29 @@
+{
+  "name": "vue-stuff",
+  "private": true,
+  "version": "1.0.0",
+  "description": "vue projects, examples and practices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node scripts/serve.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaveJump/vue-stuff.git"
+  },
+  "keywords": [],
+  "author": "DaveJump",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DaveJump/vue-stuff/issues"
+  },
+  "homepage": "https://github.com/DaveJump/vue-stuff#readme",
+  "workspaces": [
+    "projects/*",
+    "projects/vue-router/example"
+  ],
+  "devDependencies": {
+    "chalk": "^4.1.0"
+  }
+}
